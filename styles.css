@@ -1,0 +1,31 @@
+
+.circle{
+    width:150px;
+    height: 150px;
+    background: pink;
+    margin: 90px;
+    position: relative;
+}
+
+.circle::before{
+    content: "";
+    background-color: pink;
+    display: block;
+    width: 150px;
+    height: 150px;
+    transform: translate(0px,-65px);
+    border-radius: 50%;
+}
+.circle::after{
+    content: "";
+    background-color: pink;
+    display: block;
+    width: 150px;
+    height: 150px;
+    transform: translate(65px,-150px);
+    border-radius: 50%;
+}
+.heart{
+    transform: rotate(-45deg);
+    margin: -8% 0 0 31%;
+}
