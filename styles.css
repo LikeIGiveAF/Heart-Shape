@@ -1,4 +1,9 @@
 
+*{
+    background-color: #2c2a2a;
+    margin: 0;
+    padding: 0;
+}
 .circle{
     width:150px;
     height: 150px;
@@ -28,4 +33,13 @@
 .heart{
     transform: rotate(-45deg);
     margin: -8% 0 0 31%;
+}
+.amarJB{
+    /* transform: translate(50px,100px); */
+    position:absolute;
+    margin: 20% 0 0 80%;
+    text-shadow: 2px 2px 30px #ee1616;
+    color: rgb(243, 143, 160);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
 }
